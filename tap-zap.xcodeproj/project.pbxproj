@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DDAE4721C6122E6001EB663 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAE4711C6122E6001EB663 /* AppDelegate.swift */; };
+		8DDAE4741C6122E6001EB663 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDAE4731C6122E6001EB663 /* ViewController.swift */; };
+		8DDAE4771C6122E6001EB663 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAE4751C6122E6001EB663 /* Main.storyboard */; };
+		8DDAE4791C6122E6001EB663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAE4781C6122E6001EB663 /* Assets.xcassets */; };
+		8DDAE47C1C6122E6001EB663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDAE47A1C6122E6001EB663 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DDAE46E1C6122E6001EB663 /* tap-zap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tap-zap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDAE4711C6122E6001EB663 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DDAE4731C6122E6001EB663 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DDAE4761C6122E6001EB663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DDAE4781C6122E6001EB663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DDAE47B1C6122E6001EB663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DDAE47D1C6122E6001EB663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DDAE46B1C6122E6001EB663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DDAE4651C6122E6001EB663 = {
+			isa = PBXGroup;
+			children = (
+				8DDAE4701C6122E6001EB663 /* tap-zap */,
+				8DDAE46F1C6122E6001EB663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDAE46F1C6122E6001EB663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAE46E1C6122E6001EB663 /* tap-zap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DDAE4701C6122E6001EB663 /* tap-zap */ = {
+			isa = PBXGroup;
+			children = (
+				8DDAE4711C6122E6001EB663 /* AppDelegate.swift */,
+				8DDAE4731C6122E6001EB663 /* ViewController.swift */,
+				8DDAE4751C6122E6001EB663 /* Main.storyboard */,
+				8DDAE4781C6122E6001EB663 /* Assets.xcassets */,
+				8DDAE47A1C6122E6001EB663 /* LaunchScreen.storyboard */,
+				8DDAE47D1C6122E6001EB663 /* Info.plist */,
+			);
+			path = "tap-zap";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DDAE46D1C6122E6001EB663 /* tap-zap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DDAE4801C6122E6001EB663 /* Build configuration list for PBXNativeTarget "tap-zap" */;
+			buildPhases = (
+				8DDAE46A1C6122E6001EB663 /* Sources */,
+				8DDAE46B1C6122E6001EB663 /* Frameworks */,
+				8DDAE46C1C6122E6001EB663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tap-zap";
+			productName = "tap-zap";
+			productReference = 8DDAE46E1C6122E6001EB663 /* tap-zap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DDAE4661C6122E6001EB663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "TARUN GUDELA";
+				TargetAttributes = {
+					8DDAE46D1C6122E6001EB663 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 64GZ424V9N;
+					};
+				};
+			};
+			buildConfigurationList = 8DDAE4691C6122E6001EB663 /* Build configuration list for PBXProject "tap-zap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DDAE4651C6122E6001EB663;
+			productRefGroup = 8DDAE46F1C6122E6001EB663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DDAE46D1C6122E6001EB663 /* tap-zap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DDAE46C1C6122E6001EB663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAE47C1C6122E6001EB663 /* LaunchScreen.storyboard in Resources */,
+				8DDAE4791C6122E6001EB663 /* Assets.xcassets in Resources */,
+				8DDAE4771C6122E6001EB663 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DDAE46A1C6122E6001EB663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDAE4741C6122E6001EB663 /* ViewController.swift in Sources */,
+				8DDAE4721C6122E6001EB663 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DDAE4751C6122E6001EB663 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDAE4761C6122E6001EB663 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DDAE47A1C6122E6001EB663 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DDAE47B1C6122E6001EB663 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DDAE47E1C6122E6001EB663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DDAE47F1C6122E6001EB663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DDAE4811C6122E6001EB663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tap-zap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgudela.tap-zap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DDAE4821C6122E6001EB663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "tap-zap/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tgudela.tap-zap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DDAE4691C6122E6001EB663 /* Build configuration list for PBXProject "tap-zap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDAE47E1C6122E6001EB663 /* Debug */,
+				8DDAE47F1C6122E6001EB663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DDAE4801C6122E6001EB663 /* Build configuration list for PBXNativeTarget "tap-zap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DDAE4811C6122E6001EB663 /* Debug */,
+				8DDAE4821C6122E6001EB663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DDAE4661C6122E6001EB663 /* Project object */;
+}
